@@ -12,7 +12,7 @@ LIVE DEMO：[http://works.ioa.tw/number_flipping_counter/](http://works.ioa.tw/n
 
 <br/>
 ## 簡介
-* JavaScript 主要是輔助設定。藉由設定每個計數器元素的 class 來達成不同數字的顯示，分別以 n0~n9 的 class 來設定子元素 top 的位置。
+* 使用簡單的 JavaScript 與 SCSS 實作數字翻轉計數器，藉由設定每個計數器元素的 class 來達成不同數字的顯示，分別以 n0~n9 的 class 來設定子元素 top 的位置。
 
 
 <br/>
