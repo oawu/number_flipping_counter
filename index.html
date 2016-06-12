@@ -31,12 +31,39 @@
     <meta property="og:image:height" content="630" />
 
     <link href="css/public.css" rel="stylesheet" type="text/css" />
+    <link href="css/counter.css" rel="stylesheet" type="text/css" />
 
     <script src="js/jquery_v1.10.2/jquery-1.10.2.min.js" language="javascript" type="text/javascript" ></script>
     <script src="js/public.js" language="javascript" type="text/javascript" ></script>
+    <script src="js/counter.js" language="javascript" type="text/javascript" ></script>
 
   </head>
   <body lang="zh-tw">
+    <h1>OA's 數字翻轉計數器</h1>
+    <div class='counter'>
+      <span class='n0'><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span>
+      <span class='n0'><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span>
+      <span class='n0'><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span>
+      <span class='n0'><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span>
+    </div>
 
+    <input type='number' id='num' placeholder='請輸入數字' />
+
+    <article>
+      <p>JavaScript 主要是輔助設定。藉由設定每個計數器元素的 <b>class</b> 來達成不同數字的顯示，分別以 n0~n9 的 class 來設定子元素 top 的位置。</p>
+      <p>◎ 想知道計數器實作說明請看<a href='' target='_blank'>這裡</a>！</p>
+      <p>◎ GitHub 原始碼在<a href='' target='_blank'>這裡</a>！</p>
+      <p>◎ 更多相關作品可以看<a href='' target='_blank'>這裡</a>！</p>
+    </article>
+
+
+    <footer>
+      <div></div>
+      <div>
+        <div>OA's 數字翻轉計數器 ©2016</div>
+        <div>如有相關問題歡迎與<a href="https://www.facebook.com/comdan66" target="_blank">作者</a>討論。</div>
+      </div>
+      <div></div>
+    </footer>
   </body>
 </html>
