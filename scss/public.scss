@@ -51,10 +51,22 @@ html {
       color: rgba(255, 255, 255, 1.00);
       text-align: center;
     }
-    input {
-      @include input;
-      display: block;
+    .in {
       margin: 30px auto;
+      display: block;
+      width: 550px;
+      @include split-right(150px);
+
+      .l {
+        input {
+          @include input;
+          width: 100%;
+        }  
+      }
+      .r {
+        text-align: right;
+        line-height: 25px;
+      }
     }
     article {
       display: block;
