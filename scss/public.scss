@@ -54,8 +54,17 @@ html {
     .in {
       margin: 30px auto;
       display: block;
-      width: 550px;
-      @include split-right(150px);
+      max-width: 550px;
+      @media screen and (min-width: 0px) and (max-width: #{600px - 1px}) {
+        width: calc(100% - 10px * 2);
+        .r {
+          margin-top: 10px;
+        }
+      }
+      @media screen and (min-width: #{600px}) {
+        @include split-right(150px);
+      }
+
 
       .l {
         input {
@@ -76,6 +85,7 @@ html {
       width: 100%;
       @media screen and (min-width: 0px) and (max-width: #{600px - 1px}) {
         padding: 0 10px;
+        margin-top: 30px;
       }
       p {
         text-align: left;
@@ -156,6 +166,8 @@ body > footer {
 
     margin: 0 10px;
     padding-top: 50px;
+    width: calc(100% - 10px * 2);
+
     $footerWidth: 220px;
     > div {
       &:first-child, &:last-child {
