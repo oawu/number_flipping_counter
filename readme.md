@@ -8,7 +8,7 @@
 
 <br/>
 ## DEMO
-LIVE DEMO：[http://works.ioa.tw/number_flipping_counter/](http://works.ioa.tw/number_flipping_counter/)
+LIVE DEMO：[https://works.ioa.tw/number_flipping_counter/index.html](https://works.ioa.tw/number_flipping_counter/index.html)
 
 <br/>
 ## 簡介
